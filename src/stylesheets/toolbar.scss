@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500&family=Saira:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Saira:wght@100;200;300;400;500&display=swap');
 
 * {
   margin: 0;
@@ -10,7 +10,8 @@
   height: auto;
   background-color: #19967E;
   color: #000;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
   font-size: 1rem;
   display: flex;
   align-items: center;
@@ -20,7 +21,7 @@
   .freecodecamp-logo {
     width: 25px;
     height: 25px;
-    margin-left: 5px;
+    margin: 1px 5px 1px 5px;
   }
 }
 

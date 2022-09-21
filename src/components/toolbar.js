@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFreeCodeCamp } from "react-icons/fa";
-import '../stylesheets/toolbar.scss'
+import '../stylesheets/Toolbar.scss'
 
 export function Toolbar(props) {
   return(
