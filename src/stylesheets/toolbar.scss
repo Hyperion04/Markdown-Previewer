@@ -1,0 +1,20 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.toolbar {
+  width: 500px;
+  height: auto;
+  background-color: #19967E;
+  color: #000;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  i {
+    width: 25px;
+    margin-left: 5px;
+  }
+}
+
