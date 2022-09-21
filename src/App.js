@@ -1,5 +1,5 @@
 import './App.scss';
-import { Toolbar } from './components/toolbar';
+import { Toolbar } from './components/Toolbar';
 
 function App() {
   return (
