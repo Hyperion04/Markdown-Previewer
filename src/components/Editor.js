@@ -1,12 +1,12 @@
 import React from 'react';
 import '../stylesheets/Editor.scss'
 
-export function Editor(props) {
+export function Editor({ onChange,markdown }) {
   return (
     <textarea
       id="editor"
-      onChange={props.onChange}
+      onChange={onChange}
       type="text"
-      value={props.markdown} />
+      value={markdown} />
   );
 };

@@ -1,14 +1,11 @@
 import React,{ useState } from 'react';
 import './App.scss';
-import { Toolbar } from './components/Toolbar';
+import { EditorWrap } from './components/Editor-Wrap';
 
 function App() {
   return (
     <div className="App">
-      <Toolbar 
-        text={'Editor'} />
-      <Toolbar 
-        text={'Previewer'} />
+      <EditorWrap />
     </div>
   );
 }

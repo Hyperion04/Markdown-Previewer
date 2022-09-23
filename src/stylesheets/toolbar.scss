@@ -18,10 +18,21 @@
   padding: 3px;
   border: 1px solid #000;
   box-shadow: 1px 1px 8px #000;
-  .freecodecamp-logo {
+}
+
+.freecodecamp-logo {
+  width: 25px;
+  height: 25px;
+  margin: 1px 5px 1px 5px;
+}
+
+.arrows-content {
+  display: inline-block;
+}
+
+.arrows {
     width: 25px;
     height: 25px;
-    margin: 1px 5px 1px 5px;
-  }
+    margin: 1px 5px 1px 100%;
 }
 
