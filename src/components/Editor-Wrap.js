@@ -1,4 +1,4 @@
-import '../stylesheets/Editor-Wrap.scss'
+import '../stylesheets/Wrap.scss'
 import React,{ useState } from 'react'
 import { Toolbar } from './Toolbar'
 import { Editor } from './Editor'
@@ -14,7 +14,7 @@ export function EditorWrap() {
   }
 
   return(
-    <div className='editor-wrap'>
+    <div className='wrap'>
       <Toolbar 
         text={'Editor'}
         display={display}
