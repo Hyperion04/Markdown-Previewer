@@ -14,7 +14,7 @@ export function EditorWrap() {
   }
 
   return(
-    <div className='wrap'>
+    <div className='wrap' id='editor-wrap'>
       <Toolbar 
         text={'Editor'}
         display={display}

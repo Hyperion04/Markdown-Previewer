@@ -13,14 +13,14 @@ export function PrewieverWrap() {
   }
 
   return(
-    <div className='wrap'>
+    <div className='wrap' id='preview-wrap'>
       <Toolbar 
         text={'Previever'}
         display={display}
         maximized={maximized}
          />
       <Preview 
-      markdown={markdown} />
+        display={display} />
     </div>
   )
 }

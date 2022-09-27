@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.questions {
+      display: inline-block;
+      text-align: right;
+      width: 50%;
+      vertical-align: top;
+  }
+
+body {
+  background-color: skyblue;
+  min-width: 300px;
+  min-height: 100%;
+  margin: 0;
+}
+
+form {
+  padding: 1% 10%;
+  background-color: #C1CAD6;
+  width: 80%;
+  height: 100%;
+  border-radius: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#title, #description {
+  text-align: center;
+}
+
+.text-input {
+  display: inline-block;
+  border-radius: 3px;
+}
+
+#email:not(:placeholder-shown):invalid {
+  border: 2px solid red;
+}
+#number:not(:placeholder-shown):invalid {
+  border: 2px solid red;
+}
+.options {
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
+  margin: 0 auto;   
+  text-align: left;
+  padding: 0;
+}
+
+.parts {
+  margin: 0 0  2% 0;
+}
+
+#commentary {
+  height: 50px;
+  width: 40%;
+  resize: vertical;
+}
+
+#submit {
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  min-width: 60px;
+}

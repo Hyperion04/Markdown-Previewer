@@ -6,8 +6,10 @@ import { PrewieverWrap } from './components/Previewer-Wrap'
 function App() {
   return (
     <div className="App">
-      <EditorWrap />
-      <PrewieverWrap />
+      <EditorWrap 
+      />
+      <PrewieverWrap 
+      />
     </div>
   );
 }
