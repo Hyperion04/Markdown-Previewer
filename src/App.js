@@ -6,8 +6,7 @@ import { PrewieverWrap } from './components/Previewer-Wrap'
 function App() {
   return (
     <div className="App">
-      <EditorWrap 
-      />
+      <EditorWrap />
       <PrewieverWrap 
       />
     </div>
